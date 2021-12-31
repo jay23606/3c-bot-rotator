@@ -1,5 +1,5 @@
 # 3c-bot-rotator
-Rotates through a set of 3c bots every couple of minutes so that only a single bot in the list is enabled
+Rotates through a set of 3c bots every couple of minutes so that only a single bot in the set is enabled
 
 ## Instructions:
 Create new c# console project
