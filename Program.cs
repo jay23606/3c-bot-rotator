@@ -51,7 +51,7 @@ namespace bot_rotator
                                 {
                                     var res = await api.EnableBotAsync(bot.Id);
                                     if (res.IsSuccess) Console.WriteLine($"Successfully enabled {bot.Name} under {bot.AccountName}");
-                                    else Console.WriteLine($"Disable failed: {res.Error}");
+                                    else Console.WriteLine($"Enable failed: {res.Error}");
                                 }
                         }
                         await Task.Delay(1000 * 60 * 2); //wait a couple minutes before going to the next bot
